@@ -1,0 +1,5 @@
+package com.myProject.demoProject;
+
+public interface Cpu {
+	void whichCompany();
+}

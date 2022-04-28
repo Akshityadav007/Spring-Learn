@@ -1,0 +1,10 @@
+package com.myProject5.javaConfiguration;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class AppConfig {
+	public Samsung getPhone() {
+		return new Samsung();
+	}
+}

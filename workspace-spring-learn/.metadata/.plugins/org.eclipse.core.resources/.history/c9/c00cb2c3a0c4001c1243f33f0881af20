@@ -1,0 +1,5 @@
+package com.myProject4.autoWiredAnnotation;
+
+public class Amd implements Cpu {
+
+}

@@ -1,0 +1,14 @@
+package com.myProject3.BeanProperty;
+
+
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	//ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+
+	//	Cpu obj = (Cpu) context.getBean("amd");
+	//	obj.whichCpu();
+    }
+}

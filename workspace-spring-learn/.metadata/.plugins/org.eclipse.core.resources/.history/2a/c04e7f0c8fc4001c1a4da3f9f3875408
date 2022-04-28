@@ -1,0 +1,5 @@
+package com.myProject2.AnnotationBasedConfig;
+
+public class Intel implements Cpu {
+
+}

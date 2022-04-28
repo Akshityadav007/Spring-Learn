@@ -1,0 +1,14 @@
+package com.myProject4.autoWiredAnnotation;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class App {
+
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+
+		Laptop l = (Laptop) context.getBean("laptop");		System.out.println(l);
+	}
+
+}
